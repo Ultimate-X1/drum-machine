@@ -1,0 +1,28 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    height: 100vh;
+}
+
+#drum-machine{
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 10%;
+    margin-top: 25%;
+    background-color: rgb(220, 253, 253);
+    box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.4); /* Horizontal offset, vertical offset, Blur radius, color of shadow(last digit is alpha value for lighter or darker shadows) */
+}
+
+.drum-pad{
+    background-color: rgb(133, 241, 241);
+    border-radius: 7px;
+    height: 65px;
+    width: 95%;
+}
+
+#display{
+    border-radius: 7px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
